@@ -6,7 +6,7 @@ import CardContent from './CardContent.js';
 
 const CardContainer = ()=>{
     return(
-        <div>
+        <div className = 'card-container'>
             <CardBanner />
             <CardContent />
         </div>
