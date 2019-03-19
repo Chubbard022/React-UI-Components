@@ -3,10 +3,10 @@ import './Display.css';
 
 
 
-const CalculatorDisplay = () =>{
+const CalculatorDisplay = (props) =>{
     return(
         <div>
-        <h1 className='CalculatorDisplay'>0</h1>
+        <h1 className='CalculatorDisplay'>{props.text}</h1>
         </div>
     )
 }

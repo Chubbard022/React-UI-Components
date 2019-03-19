@@ -7,7 +7,7 @@ import NumberButtons from './components/ButtonComponents/NumberButton';
 const App = () => {
   return (
     <div>
-      <CalculatorDisplay />
+      <CalculatorDisplay text='0' />
       <div className='buttons'>
       <NumberButtons />
       <Buttons />
