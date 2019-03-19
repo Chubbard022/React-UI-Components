@@ -3,7 +3,13 @@ import './Button.css';
 
 const Buttons = ()=>{
     return(
-        <h1>Hello from Buttons</h1>
+        <div className='ButtonComponent__ActionButtons'>
+            <p>%</p>
+            <p>x</p>
+            <p>-</p>
+            <p>+</p>
+            <p>=</p>
+        </div>
     )
 }
 

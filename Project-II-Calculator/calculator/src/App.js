@@ -8,8 +8,10 @@ const App = () => {
   return (
     <div>
       <CalculatorDisplay />
-      <Buttons />
+      <div className='buttons'>
       <NumberButtons />
+      <Buttons />
+      </div>
     </div>
   );
 };
