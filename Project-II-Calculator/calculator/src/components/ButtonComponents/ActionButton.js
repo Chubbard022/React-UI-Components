@@ -1,14 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const Buttons = ()=>{
+const Buttons = (props)=>{
     return(
         <div className='ButtonComponent__ActionButtons'>
-            <p>%</p>
-            <p>x</p>
-            <p>-</p>
-            <p>+</p>
-            <p>=</p>
+            <p>{props.text}</p>
         </div>
     )
 }

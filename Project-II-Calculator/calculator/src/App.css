@@ -1,6 +1,8 @@
-div{
+.Calculator{
    border: 1px solid black;
 }
-.buttons{
+.NumberButtons{
+    /* border: 4px solid rgb(157, 206, 21); */
     display: flex;
+    flex-wrap: wrap;
 }
