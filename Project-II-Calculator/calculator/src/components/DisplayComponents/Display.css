@@ -1,4 +1,5 @@
 .CalculatorDisplay{
-    background-color: black;
+    background-color: rgb(42, 41, 49);
     color: white;
+    text-align: end;
 }
