@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+.header-container{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.header-item{
+    /* border: 1px solid orange; */
+    width: 80%;
+}
+.header-image{
+   width: 70%;
+}
+.header-title{
+    font-size: 25px;
+}

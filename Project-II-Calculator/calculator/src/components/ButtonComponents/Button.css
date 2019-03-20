@@ -1,0 +1,32 @@
+.ButtonComponent__NumberButtons{
+    border: 1px solid grey;
+  /* border: 2px solid red; */
+    width:25%;
+}
+.ButtonComponent__NumberButtons p{
+    width:100%;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.ButtonComponent__ActionButtons{
+    padding: 10px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    width: 22.2%;
+    background-color: rgb(167, 46, 24);
+
+}
+.ButtonComponent__ActionButtons p{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    width:100%;
+}
+
+.ButtonComponent__NumberButtons:nth-child(1){
+    width: 75.5%;
+}
+.ButtonComponent__NumberButtons:nth-child(15){
+    width: 75.5%;}
